@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+:root{
+  --primaryColor:#f36100;
+  --secondaryColor:white;
+  --text-secondary-color : #a9a9a9;
+  --grey-color : rgb(39, 37, 37);
+  --insta-color:rgb(232, 59, 59);
+  --facebook-color:blue;
+  --whatsapp-color:green;
+  --phone-color:blue;
+  --body-color : black;
+}
+body{
+
+/* font-family: 'Hedvig Letters Serif', serif; */
+font-family: 'Oswald', sans-serif;
+
+
+background-color: var(--body-color);
+}
