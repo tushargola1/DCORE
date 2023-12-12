@@ -48,7 +48,7 @@
     #bar {
         display: block;
         z-index: 1;
-        font-size: 1.5em;
+        font-size: 2em;
         color: var(--secondaryColor);
     }
 
@@ -59,7 +59,7 @@
         width: 50%;
         top: 0;
         height: 100vh;
-        background: beige;
+        background: black;
         opacity: 0.7;
         right: 0;
         bottom: 0;
