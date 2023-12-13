@@ -5,6 +5,7 @@
     margin: auto;
     color: white;
     padding: 2vw 0;
+    /* background-color: red; */
 }
 
 .grid{
@@ -100,7 +101,5 @@ height: auto;
     .card ul li{
         padding: 1.5vw 0;
     }
-    /* #img-fa i{
-        padding: 5vw;
-    } */
+   
 }

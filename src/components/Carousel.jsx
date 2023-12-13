@@ -3,6 +3,7 @@ import { images , quotes } from './images'
 import '../styles/carousel.css'
 import Choose_us from './Choose_us'
 
+
 const Carousel = () => {
     const[currImage , setCurrImage] = useState(0)
     const [currQuote, setCurrQuote] = useState(0);
@@ -71,7 +72,9 @@ const Carousel = () => {
         </div>
       </div>
 
+
       <Choose_us/>
+     
     </>
   )
 }
