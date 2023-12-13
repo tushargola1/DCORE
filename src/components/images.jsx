@@ -62,3 +62,27 @@ export const classes = [
                 desc : "Unlock the path to sustainable fat loss with our tailored fitness programs, sculpting a healthier, more energized yourself"
         }
 ]
+
+export const choose_cards = [
+        {
+          img: "fa-solid fa-person-biking",
+          heading: 'Modern equipment',
+          content: 'Elevate your fitness journey with state-of-the-art gym equipment designed for efficiency, performance, and unparalleled results.'
+        },
+        {
+          img: "fa-brands fa-nutritionix",
+          heading: 'Healthy nutrition plan',
+          content: 'Energize your workouts with a balanced nutrition plan, rich in lean proteins, whole grains, and nutrient-packed fruits and vegetables for optimal fitness and well-being.'
+        },
+        {
+          img: "fa-solid fa-dumbbell",
+          heading: 'Professional training plan', 
+          content: 'Unlock your fitness potential with our personalized professional training plans, meticulously crafted to boost performance and achieve your health goals at DCORE FITNESS.'
+        },
+        {
+          img: "fa-solid fa-heart-circle-bolt",
+          heading: 'Cardio sessions',
+          content: 'Elevate your fitness journey with heart-pumping cardio sessions at our state-of-the-art gym, where every beat brings you closer to a healthier, stronger you.'
+        },
+      ];
+      

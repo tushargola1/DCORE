@@ -16,10 +16,10 @@
   --body-color : black;
 }
 body{
-
-/* font-family: 'Hedvig Letters Serif', serif; */
 font-family: 'Oswald', sans-serif;
-
-
 background-color: var(--body-color);
+
+}
+li{
+  list-style: none;
 }

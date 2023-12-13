@@ -1,6 +1,7 @@
 import React, { useState , useEffect} from 'react'
 import { images , quotes } from './images'
 import '../styles/carousel.css'
+import Choose_us from './Choose_us'
 
 const Carousel = () => {
     const[currImage , setCurrImage] = useState(0)
@@ -69,6 +70,8 @@ const Carousel = () => {
           <div className="nav-btn" onClick={() => handleImageChange("next")}></div>
         </div>
       </div>
+
+      <Choose_us/>
     </>
   )
 }
