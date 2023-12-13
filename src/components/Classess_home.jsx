@@ -23,6 +23,7 @@ const Classess_home = () => {
 ))}
    </div>
      </div>
+     
     </>
   )
 }

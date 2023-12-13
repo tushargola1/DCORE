@@ -1,0 +1,67 @@
+.banner{
+    background-image: url('../assets/img/registration.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+   padding: 4vw 0;
+   gap: 2vw;
+   
+}
+
+.banner h1{
+    font-size: 2.5em;
+
+}
+
+.banner h3{
+    font-size: 1.5em;
+    
+}
+
+.banner button{
+    width: fit-content;
+    margin: auto;
+    padding: 1vw 1.5vw;
+    font-family: Oswald,sans-serif;
+    font-weight: 600;
+    letter-spacing: .2vw;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.2em;
+    border: 2px solid var(--primaryColor);
+    
+}
+
+.banner button:hover{
+    background-color: var(--primaryColor);
+}
+
+
+@media screen and (max-width:768px) {
+    .banner{
+        gap: 3vw;
+    }
+    .banner h1{
+        font-size: 2em;
+    }
+    .banner h3{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:431px) {
+    .banner{
+        gap: 10vw;
+        padding: 10vw 0;
+    }
+    .banner h1{
+        font-size: 1.8em;
+    }
+    .banner h3{
+        font-size: 1em;
+    }
+}

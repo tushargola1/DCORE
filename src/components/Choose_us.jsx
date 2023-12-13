@@ -3,6 +3,7 @@ import '../styles/chose_us.css'
 import Classess_home from './Classess_home'
 
 import { choose_cards } from './images';
+import Banner from './Banner';
 const Choose_us = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const Choose_us = () => {
     </div>
    
       <Classess_home/>
+      <Banner/>
     </>
   )
 }
