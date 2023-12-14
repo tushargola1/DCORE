@@ -30,6 +30,7 @@ const Choose_us = () => {
       <Classess_home/>
       <Banner/>
       <AboutMe_home/>
+      
     </>
   )
 }

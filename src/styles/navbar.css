@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding: 0.5vw 2vw;
     z-index: 1000000;
@@ -11,6 +11,7 @@
 
 .nav img {
     cursor: pointer;
+    
 }
 
 .nav-links {
@@ -19,16 +20,18 @@
     font-size: 1.01em;
     font-weight: 600;
     letter-spacing: 0.01vw;
+    
 }
 
 .navs-items {
     cursor: pointer;
     color: white;
+    text-decoration: none;
 }
 
 .navs-items:hover {
     color: var(--primaryColor);
-    text-decoration: underline;
+
 }
 
 .social-links {
@@ -40,8 +43,9 @@
 }
 
 .nav-links a:hover,
-.nav-links a:active {
+.nav-links a:focus {
     color: var(--primaryColor);
+    text-decoration: line-through;
 }
 
 @media screen and (max-width: 426px) {
@@ -50,6 +54,42 @@
         z-index: 1;
         font-size: 2em;
         color: var(--secondaryColor);
+    }
+    .nav img{
+        margin-top: 2vw;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 50%;
+        top: 0;
+        height: 100vh;
+        background: black;
+        opacity: 0.7;
+        right: 0;
+        bottom: 0;
+        padding: 120px 20px;
+        gap: 13vw;
+        transform: translateX(0%);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .active {
+        transform: translateX(100%);
+    }
+}
+
+@media screen and  (max-width : 620px) {
+    #bar {
+        display: block;
+        z-index: 1;
+        font-size: 2em;
+        color: var(--secondaryColor);
+    }
+    .nav img{
+        margin-top: 2vw;
     }
 
     .nav-links {

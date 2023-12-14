@@ -1,0 +1,76 @@
+.footer{
+    background:#262424;
+    padding:20px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+ 
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.9em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+   
+    }
+    #image{
+      width: 5vw;
+    }
+    .footer .row ul li a:hover{
+    color:var(--primaryColor);
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+
+    .ins:hover{
+        color: var(--insta-color);
+
+    }
+    .whats:hover{
+
+            color: var( --whatsapp-color);
+    }
+    .face:hover{
+        color: var(--facebook-color);
+    }
+    .phone:hover{
+        color: var( --phone-color);
+    }
+    
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    #image{
+      width: 15vw;
+  
+    }
+    }

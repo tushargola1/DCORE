@@ -38,9 +38,9 @@
         border-radius: 1vw;
     }
 
-    .card-map ul li img:hover{
+    /* .card-map ul li img:hover{
         opacity: 0.7;
-    }
+    } */
 
 .card-map ul li {
    padding: 0.3vw 0;
@@ -104,4 +104,5 @@ color: var(--text-secondary-color);
      .card-map ul li:nth-child(2){
         font-size:2em;
      }
+    
 }
