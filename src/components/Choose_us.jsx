@@ -4,6 +4,7 @@ import Classess_home from './Classess_home'
 
 import { choose_cards } from './images';
 import Banner from './Banner';
+import AboutMe_home from './AboutMe_home';
 const Choose_us = () => {
   return (
     <>
@@ -28,6 +29,7 @@ const Choose_us = () => {
    
       <Classess_home/>
       <Banner/>
+      <AboutMe_home/>
     </>
   )
 }

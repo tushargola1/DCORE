@@ -1,0 +1,83 @@
+.dheeraj{
+
+    padding: 2vw 0;
+  
+    
+
+}
+
+.dheeraj h1{
+    font-size: 1.7em;
+  color: var(--primaryColor);
+    margin-bottom: 2vh;
+    text-align: center;
+    
+
+}
+.pic{
+    display: flex;
+   width: 70%;
+   margin: auto;
+   gap:2vw;
+   align-items: center;
+   color: white;
+   margin-top:2vw ;
+
+}
+
+.pic img{
+    width: 30vw;
+    border-radius: 1vw;
+}
+.pic p{
+    font-size: 1.5em;
+    width: 58vw;
+    /* width: 45%; */
+    letter-spacing: 0.01vw;
+}
+
+
+.pic p .name{
+    color: var(--primaryColor);
+}
+
+@media screen and (max-width :1024px) {
+    .pic{
+        width: 90%;
+    }
+   .pic p{
+    width: 60vw;
+   }
+   .pic img{
+    width: 40vw;
+   }
+}
+
+@media screen and (max-width :768px) {
+    .pic{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+   .pic p{
+    width: 95%;
+    margin: 0 8vw;
+   }
+   .pic img{
+    width: 40vw;
+   }
+}
+@media screen and (max-width :431px) {
+    .pic{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+   .pic p{
+    width: 100%;
+    /* margin: 0 5vw; */
+    font-size: 1.2em;
+   }
+   .pic img{
+    width: 85%;
+    
+   }
+}
