@@ -36,7 +36,10 @@
     letter-spacing: 0.01vw;
 }
 
-
+.pic p .name a{
+    color: var(--primaryColor);
+    text-decoration: none;
+}
 .pic p .name{
     color: var(--primaryColor);
 }

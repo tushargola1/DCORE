@@ -12,7 +12,7 @@ const Footer = () => {
 <a href="https://www.instagram.com/d_core_fitness/"><i className="fa-brands fa-instagram ins"></i></a>
 <a href="https://wa.me/9582124881"><i className="fa-brands fa-whatsapp whats"></i></a>
 <a href="#"><i className="fa-brands fa-facebook face"></i></a>
-<a href="tel:9667062839"><i className="fa-solid fa-phone phone"></i></a>
+<a href="tel:9582124881"><i className="fa-solid fa-phone phone"></i></a>
 </div>
 <img src={image} alt="" id='image'/>
 <div className="row">

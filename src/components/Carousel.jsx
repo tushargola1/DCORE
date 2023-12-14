@@ -61,7 +61,7 @@ const Carousel = () => {
           <a href="#" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-facebook"></i>
           </a>
-          <a href="tel:9667062839" target="_blank" rel="noopener noreferrer">
+          <a href="tel:9582124881" target="_blank" rel="noopener noreferrer">
             <i className="fa-solid fa-phone"></i>
           </a>
         </div>

@@ -1,9 +1,12 @@
 import React from 'react'
+import video from '../assets/about-video.mp4'
 
 const AboutUs = () => {
   return (
     <>
-      <p>hello sir</p>
+      <div className="aboutUs">
+        {/* <video src={video} controls></video> */}
+      </div>
     </>
   )
 }
