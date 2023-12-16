@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import './index.css'
 import AboutUs from './components/AboutUs';
+import Gallery from './components/Gallery';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Carousel />} />
     <Route path="/about" element={<AboutUs/>} />
+    <Route path="/gallery" element={<Gallery/>} />
       
     </Routes>
     <Footer/>

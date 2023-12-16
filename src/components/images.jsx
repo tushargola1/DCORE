@@ -5,9 +5,27 @@ import img4 from "../assets/img/umar/2.jpg"
 import img5 from "../assets/img/umar/1.jpg"
 
 
-import img6 from '../assets/img/muscle_gaining.jpg'
+import img6 from '../assets/img/gallery/muscle_gaining.jpg'
 import img7 from '../assets/img/strength_building.jpg'
 import img8 from '../assets/img/fat-loss.jpg'
+
+
+import img15 from '../assets/img/gallery/IMG_20231214_231659_301.jpg'
+import img18 from '../assets/img/gallery/IMG_20231214_231700_802.jpg'
+import img14 from '../assets/img/gallery/IMG_20231214_231718_756.jpg'
+import img12 from '../assets/img/gallery/IMG_20231214_231716_397.jpg'
+
+import img19 from '../assets/img/gallery/3.jpg'
+import img11 from '../assets/img/gallery/4.jpg'
+import img9 from '../assets/img/gallery/5.webp'
+import img16 from '../assets/img/gallery/5.jpg'
+import img17 from '../assets/img/gallery/muscle_gaining.jpg'
+
+
+import img10 from '../assets/img/dheeraj/6.jpg'
+import img13 from '../assets/img/strength_building.jpg'
+import img20 from '../assets/img/gallery/Picsart_23-12-15_11-24-43-308.jpg'
+
 
 
 //course-section-frontpage-images
@@ -86,3 +104,43 @@ export const choose_cards = [
         },
       ];
       
+
+
+export const gallery = [
+        {
+                image : img9
+        },
+        {
+                image: img10
+        },
+        {
+                image : img11
+        },
+        {
+                image: img12
+        },
+        {
+                image : img13
+        },
+        {
+                image: img14
+        },
+        {
+                image : img15
+        },
+        {
+                image: img16
+        },
+        {
+                image : img17
+        },
+        {
+                image: img18
+        },
+        {
+                image : img19
+        },
+        {
+                image: img20
+        }
+]

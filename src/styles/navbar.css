@@ -1,12 +1,14 @@
 .nav {
-    background-color: transparent;
+    background: transparent;
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: 100%;
     padding: 0.5vw 2vw;
     z-index: 1000000;
+    
 }
 
 .nav img {

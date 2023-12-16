@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className={`nav-links ${isOpen ? '' : 'active'}`} onClick={(e) => e.stopPropagation()}>
           <Link to= '/' className="navs-items">Home</Link>
           <Link to='/about' className="navs-items">About us</Link>
-          <div className="navs-items">Gallery</div>
+          <Link to='/gallery' className="navs-items">Gallery</Link>
           <div className="navs-items">Plans & pricing</div>
           <div className="navs-items">Timing</div>
           <div className="navs-items">Contact</div>
