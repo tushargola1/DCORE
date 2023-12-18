@@ -25,7 +25,7 @@ const Navbar = () => {
     <>
       <nav className="nav" onClick={(e) => e.stopPropagation()}>
         {/* Stop propagation to prevent closing when clicking inside the navbar */}
-        <img src={logo} alt="" width={65} />
+        <Link to='/'><img src={logo} alt="" width={65} /></Link>
         <div className={`nav-links ${isOpen ? '' : 'active'}`} onClick={(e) => e.stopPropagation()}>
           <Link to= '/' className="navs-items">Home</Link>
           <Link to='/about' className="navs-items">About us</Link>

@@ -40,7 +40,8 @@
 .gall img{ 
     cursor: pointer;
     border-radius: 1.5vw;
-border: 2px solid var(--text-secondary-color);
+/* border: 2px solid var(--text-secondary-color); */
+border: 2px solid rgb(60, 57, 57);
 }
 .gall img:hover{
    opacity: 0.8;

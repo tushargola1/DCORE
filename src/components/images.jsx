@@ -43,6 +43,8 @@ import img33 from '../assets/img/gym/9.jpg'
 
 
 
+
+
 //course-section-frontpage-images
 
 
@@ -163,6 +165,9 @@ export const gallery = [
         },
         {
                 image: img22
+        },
+        {
+                image : img24
         }
 ]
 
