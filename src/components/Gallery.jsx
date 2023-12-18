@@ -5,7 +5,7 @@ import img11 from '../assets/img/gallery/4.jpg'
 import Banner from '../components/Banner.jsx'
 // import video from '../assets/about-video.mp4'
 
-import { gallery } from "./images";
+import { gallery,gallery_gym  } from "./images";
 const Gallery = () => {
   return (
     <>
@@ -13,7 +13,15 @@ const Gallery = () => {
     
         <h1 className="grid">Our Gallery</h1>
       </div>
-
+<div className="gym_gallery">
+  {
+    gallery_gym.map((img , index) =>(
+      <div className="gym_gall" key={index}>
+        <img src={img.image} alt="modern equiments" />
+      </div>
+    ))
+  }
+</div>
 <div className="gallery_image ">
 {/* <video src={video} autoPlay loop muted playsInline></video>
 <video src={video} autoPlay loop muted playsInline></video>

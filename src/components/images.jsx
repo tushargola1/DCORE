@@ -21,16 +21,27 @@ import img9 from '../assets/img/gallery/5.webp'
 import img16 from '../assets/img/gallery/5.jpg'
 import img17 from '../assets/img/gallery/muscle_gaining.jpg'
 
-
 import img10 from '../assets/img/dheeraj/6.jpg'
 import img13 from '../assets/img/strength_building.jpg'
 import img20 from '../assets/img/gallery/Picsart_23-12-15_11-24-43-308.jpg'
 import img21 from '../assets/img/gallery/IMG_20231217_123934.jpg'
 import img12 from '../assets/img/gallery/IMG-20231216-WA0008.jpg'
 
-
 import img23 from "../assets/img/dheeraj/4.jpg"
 import img24 from '../assets/img/gallery/piyush.jpg'
+
+import img25 from '../assets/img/gym/1.jpg'
+import img26 from '../assets/img/gym/2.jpg'
+import img27 from '../assets/img/gym/3.jpg'
+import img28 from '../assets/img/gym/4.jpg'
+import img29 from '../assets/img/gym/5.jpg'
+import img30 from '../assets/img/gym/6.jpg'
+import img31 from '../assets/img/gym/7.jpg'
+import img32 from '../assets/img/gym/8.jpg'
+import img33 from '../assets/img/gym/9.jpg'
+
+
+
 
 //course-section-frontpage-images
 
@@ -41,7 +52,7 @@ export const images = [
         {image : img1},
         {image: img2},
         {image: img3},
-        {image: img4},
+        {image: img15},
         {image: img5}
 
     
@@ -171,20 +182,7 @@ export const aboutUs = [
                 desc : 'Our lead trainer stands as a beacon of excellence, adorned with multiple bodybuilding medals and recognized as the best in transformation. Harnessing a wealth of experience, he is committed to sculpting bodies and transforming lives at our gym.',
                 insta_link: 'https://www.instagram.com/umer_mir_umi?igshid=YzVkODRmOTdmMw=='
         },
-        // {
-        //         image : img12,
-        //         title : "Trainer",
-        //         name  : "Anil Sinandi",
-        //         desc : 'Elevate your fitness journey with our esteemed trainer, a two-time Mr. Delhi Bodybuilding champion (2011, 2013). With a wealth of experience, he is committed to guiding you towards your fitness goals and unlocking your full potential.',
-        //         insta_link: 'https://www.instagram.com/anil.sinandi?igshid=YzVkODRmOTdmMw=='
-        // },
-        // {
-        //         image : img24,
-        //         title : "Trainer",
-        //         name  : "Pratham ",
-        //         desc : 'Elevate your fitness journey with our seasoned trainer, combining passion and expertise to guide you towards your health and wellness goals. Experience personalized workouts and motivational support tailored to unleash your full potential at every session.',
-        //         insta_link: 'https://www.instagram.com/fit_pratham_begra?igshid=YzVkODRmOTdmMw=='
-        // },
+       
 ]
 
 export const aboutUs2 =[
@@ -206,4 +204,32 @@ export const aboutUs2 =[
 
 
 
-      
+export const gallery_gym =[
+        {
+                image :img25
+        },
+        {
+                image :img26
+        },
+        {
+                image :img27
+        },
+        {
+                image :img28
+        },
+        {
+                image :img29
+        },
+        {
+                image :img30
+        },
+        {
+                image :img31
+        },
+        {
+                image :img32
+        },
+        {
+                image :img33
+        },
+]
