@@ -50,3 +50,11 @@ border: 2px solid var(--text-secondary-color);
      padding: 35vw 0;
     }
   }
+
+  @media screen and (max-width:320px) {
+    .gall img{
+        width: 95%;
+        margin: 0 2vw;
+    }
+    
+  }

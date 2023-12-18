@@ -71,6 +71,7 @@ text-transform: capitalize;
 .tains{
     display: grid;
   
+    grid-template-columns: repeat(2 , 1fr);
 
 }
 
@@ -96,7 +97,7 @@ text-transform: capitalize;
 .coaches img{
     width:20vw;
     height: 60vh;
-    border-radius: 1vw ;
+    
     
 }
 
@@ -142,18 +143,28 @@ color: var(--text-secondary-color);
    
 
 }
-
-@media screen and (max-width: 540px) {
+@media screen and (max-width:321px) {
+    .vi{
+     margin-top: 10vw ;
+    }
+    .trainers h2{
+        font-size: 2.3em;
+        padding: 10vw 0;
+    }
+    
+}
+@media screen and (max-width: 600px) {
     .aboutUs {
         height: 40vh;
     }
 
     .aboutUs p {
-        padding: 1vw 0;
+        padding: 12vw 0;
         font-size: 3em;
         text-align: center;
         font-weight: 700;
     }
+   
 .trainers h2{
     margin: 8vw 0 ;
 }
@@ -248,5 +259,8 @@ color: var(--text-secondary-color);
     .list-acheive p{
         line-height: 3.4vw;
         font-size: 1.2em;
+    }
+    .tains{
+        grid-template-columns: repeat(1 , 1fr);
     }
 }
