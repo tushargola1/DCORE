@@ -13,7 +13,7 @@ import img8 from '../assets/img/fat-loss.jpg'
 import img15 from '../assets/img/gallery/IMG_20231214_231659_301.jpg'
 import img18 from '../assets/img/gallery/IMG_20231214_231700_802.jpg'
 import img14 from '../assets/img/gallery/IMG_20231214_231718_756.jpg'
-import img12 from '../assets/img/gallery/IMG_20231214_231716_397.jpg'
+import img22 from '../assets/img/gallery/IMG_20231214_231716_397.jpg'
 
 import img19 from '../assets/img/gallery/3.jpg'
 import img11 from '../assets/img/gallery/4.jpg'
@@ -25,8 +25,12 @@ import img17 from '../assets/img/gallery/muscle_gaining.jpg'
 import img10 from '../assets/img/dheeraj/6.jpg'
 import img13 from '../assets/img/strength_building.jpg'
 import img20 from '../assets/img/gallery/Picsart_23-12-15_11-24-43-308.jpg'
+import img21 from '../assets/img/gallery/IMG_20231217_123934.jpg'
+import img12 from '../assets/img/gallery/IMG-20231216-WA0008.jpg'
 
 
+import img23 from "../assets/img/dheeraj/4.jpg"
+import img24 from '../assets/img/gallery/piyush.jpg'
 
 //course-section-frontpage-images
 
@@ -142,5 +146,64 @@ export const gallery = [
         },
         {
                 image: img20
+        },
+        {
+                image: img21
+        },
+        {
+                image: img22
         }
 ]
+
+
+export const aboutUs = [
+        {
+                image : img23,
+                title : "HEAD COACH",
+                name  : "Vihan Talwar",
+                desc : 'D Core Fitness is driven by the expertise of a certified coach from K11, coupled with the prowess of a Mens Physique Champion in 2017. With a proven track record as a body transformation expert, our owner is dedicated to sculpting success stories through personalized fitness journeys.',
+                insta_link: 'https://www.instagram.com/vihantalwar_official?igshid=YzVkODRmOTdmMw=='
+        },
+        {
+                image : img5,
+                title : "LEAD TRAINER",
+                name  : "Umer",
+                desc : 'Our lead trainer stands as a beacon of excellence, adorned with multiple bodybuilding medals and recognized as the best in transformation. Harnessing a wealth of experience, he is committed to sculpting bodies and transforming lives at our gym.',
+                insta_link: 'https://www.instagram.com/umer_mir_umi?igshid=YzVkODRmOTdmMw=='
+        },
+        // {
+        //         image : img12,
+        //         title : "Trainer",
+        //         name  : "Anil Sinandi",
+        //         desc : 'Elevate your fitness journey with our esteemed trainer, a two-time Mr. Delhi Bodybuilding champion (2011, 2013). With a wealth of experience, he is committed to guiding you towards your fitness goals and unlocking your full potential.',
+        //         insta_link: 'https://www.instagram.com/anil.sinandi?igshid=YzVkODRmOTdmMw=='
+        // },
+        // {
+        //         image : img24,
+        //         title : "Trainer",
+        //         name  : "Pratham ",
+        //         desc : 'Elevate your fitness journey with our seasoned trainer, combining passion and expertise to guide you towards your health and wellness goals. Experience personalized workouts and motivational support tailored to unleash your full potential at every session.',
+        //         insta_link: 'https://www.instagram.com/fit_pratham_begra?igshid=YzVkODRmOTdmMw=='
+        // },
+]
+
+export const aboutUs2 =[
+        {
+                image : img12,
+                title : "Trainer",
+                name  : "Anil Sinandi",
+                desc : 'Elevate your fitness journey with our esteemed trainer, a two-time Mr. Delhi Bodybuilding champion (2011, 2013). With a wealth of experience, he is committed to guiding you towards your fitness goals and unlocking your full potential.',
+                insta_link: 'https://www.instagram.com/anil.sinandi?igshid=YzVkODRmOTdmMw=='
+        },
+        {
+                image : img24,
+                title : "Trainer",
+                name  : "Pratham ",
+                desc : 'Elevate your fitness journey with our seasoned trainer, combining passion and expertise to guide you towards your health and wellness goals. Experience personalized workouts and motivational support tailored to unleash your full potential at every session.',
+                insta_link: 'https://www.instagram.com/fit_pratham_begra?igshid=YzVkODRmOTdmMw=='
+        },
+] 
+
+
+
+      
