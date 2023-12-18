@@ -1,0 +1,154 @@
+.pricing{
+    background: url('../assets/img/gallery/pricing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing h1{
+    padding: 20vh;
+    color: var(--primaryColor);
+    font-size: 4em;
+}
+
+.price_desc-text{
+    margin: 4vw 0;
+    text-align: center;
+}
+.price_desc-text h2{
+    color: var(--primaryColor);
+    font-size: 2.5em;
+}
+.price_desc-text h4{
+    color: var( --text-secondary-color);
+    margin-top: 1vw;
+    font-size: 1.3em;
+}
+.pricing_cards{
+    color: white;
+        margin: 2vw;
+  
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-row-gap: 2vw;
+ 
+   
+}
+
+.price_cards{
+width: 50vh;
+border: 1px solid var(--text-secondary-color);
+margin: auto;
+padding: 2vw 0;
+}
+
+.price_cards ul{
+    padding: 0vw 1.5vw;
+    
+}
+
+.price_cards li h2{
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    font-size: 1.6em;
+       /* text-align: center; */
+}
+
+.price_cards #dumbble{
+    background-color: var(  --grey-color);
+    padding: 1vw;
+    border-radius: 50%;
+    font-size: 2em;
+    color: var(--primaryColor);
+    margin-top: 2vw;
+}
+
+#dumbble:hover{
+    background-color: var(--primaryColor);
+    color:white;
+}
+
+.price_cards ul li h3{
+    font-size: 1.8em;
+    margin-top: 2vw;
+}
+.price_cards li:nth-child(4){
+    margin-top: 0.8vw;
+}
+.price_cards  #rupee{
+    margin-left: 1vw;
+    font-size: 1.9em;
+    color: var(--insta-color);
+}
+
+.price_cards li p{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 1vw;
+    color: var(--text-secondary-color);
+    font-weight: bold;
+
+}
+
+.price_cards  button{
+    margin:  auto;
+   padding: 0.8vw;
+    width: 18vw;
+    cursor: pointer;
+font-size: 1.2em;
+font-weight: bold;
+background-color: transparent;
+outline: 0;
+border: 2px solid white;
+color: white;
+}
+
+.price_cards button:hover{
+    color: var(--primaryColor);
+    background-color: var(--grey-color);
+}
+
+@media screen and (max-width : 540px) {
+.price_desc-text h2{
+    font-size: 1.8rem;
+    margin: 2vw 0;
+}
+    .pricing_cards{
+        grid-template-columns: repeat(1 , 1fr);
+        padding: 5vw 0;
+        grid-row-gap: 10vw;
+    }
+    .price_cards{
+        width: 100%;
+        
+    }
+    .price_cards ul{
+        padding: 0 5vw;
+
+    }
+    .price_cards #dumbble{
+        margin-top: 5vw;
+        padding: 4vw;
+
+    }
+    .price_cards ul li h3{
+       margin-top: 5vw;
+    }
+    .price_cards li:nth-child(4){
+        margin-top: 5vw;
+    }
+    .price_cards #rupee{
+        margin-left: 5vw;
+    }
+    .price_cards li p{
+        margin-top: 5vw;
+        font-size: 1.2em;
+
+    }
+    .price_cards button{
+        width: 95%;
+        padding: 3vw;
+        margin: 3vw 2vw;
+      
+    }
+}

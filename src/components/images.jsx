@@ -238,3 +238,44 @@ export const gallery_gym =[
                 image :img33
         },
 ]
+
+
+export const pricing =[
+        {
+                classImage: 'fa-solid fa-dumbbell',
+                month : '1 MONTH',
+                price_sign :'fa-solid fa-indian-rupee-sign',
+                price : '1200 /-',
+                desc: 'gym classes with trainer',
+                name : 'silver Membership'
+                
+
+        },
+        {
+                classImage: 'fa-solid fa-dumbbell',
+                month : '3 MONTH',
+                price_sign :'fa-solid fa-indian-rupee-sign',
+                price : '3200 /-',
+                desc: 'gym classes with trainer',
+                name : 'Gold Membership'
+
+        },
+        {
+                classImage: 'fa-solid fa-dumbbell',
+                month : '6 MONTH',
+                price_sign :'fa-solid fa-indian-rupee-sign',
+                price : '6400 /-',
+                desc: 'gym classes with trainer',
+                name : 'Platinum Membership'
+
+        },
+        {
+                classImage: 'fa-solid fa-dumbbell',
+                month : '12 MONTH',
+                price_sign :'fa-solid fa-indian-rupee-sign',
+                price : '13,600 /-',
+                desc: 'gym classes with trainer',
+                name : 'Diamond Membership'
+
+        },
+]
