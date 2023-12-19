@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/pricing.css'
 import { pricing } from './images'
+import Banner from './Banner'
 
 const Pricing = () => {
   return (
@@ -30,6 +31,8 @@ const Pricing = () => {
 
         
      </div>
+
+     <Banner/>
     </>
   )
 }

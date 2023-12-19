@@ -1,0 +1,189 @@
+.contact{
+    background: url('../assets/img/gallery/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact h1{
+    padding: 20vh 0;
+    color: var(--primaryColor);
+    font-size: 4em;
+}
+
+.map{
+    margin: 2vw 0;
+}
+.map iframe{
+    width: 90vw;
+}
+
+
+.contact_details{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+    padding: 2vw 8vw;
+    gap: 4vw;
+
+    width: 100%;
+}
+.left_side_contact{
+    width: 90vw;
+    
+}
+.left_side_contact h3{
+    color: var(--primaryColor);
+    font-size: 1.3em;
+    text-transform: uppercase;
+
+}
+.left_side_contact h2{
+    color:white;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 0.8vw ;
+
+}
+.left_favicons{
+    margin-top: 2vw;
+   width: 30vw;
+ 
+   letter-spacing: 0.01vw;
+   
+}
+.left_favicons ul li{
+    padding: 1vw 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.left_favicons ul li i{
+    padding: 1.5vw;
+    background-color: var(--grey-color);
+    color: var(--primaryColor);
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+
+.left_favicons ul li span{
+    line-height: 1.6vw;
+    margin-left: 2vw;
+    font-size: 1em;
+    color: var(--text-secondary-color);
+   
+}
+
+
+
+form{
+
+    text-transform: uppercase;
+
+}
+
+.right_side_contact form :is(input, textarea){
+    width: 40vw;
+    padding: 1vw 1.5vw;
+    margin-bottom: 1vw;
+    background-color: var(--grey-color);
+    outline: 0;
+    border: 1px solid var(--grey-color);
+    color: var(--text-secondary-color);
+  
+    
+}
+
+.right_side_contact form textarea{
+   
+    resize: none;
+}
+
+.right_side_contact form :is(input, textarea)::placeholder {
+    color: var(--text-secondary-color);
+
+    font-size: 1.1em;
+}
+
+.right_side_contact button{
+    width: 40vw;
+    padding: 1vw 0;
+    cursor: pointer;
+    background-color: var(--primaryColor);
+    border: 0;
+    font-size: 1.1em;    
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width : 540px) {
+    .contact h1{
+        font-size: 3em;
+    }
+        .contact_details{
+            flex-wrap: wrap;
+        }
+        
+.left_favicons ul li i{
+    padding:5vw;
+    background-color: var(--grey-color);
+    color: var(--primaryColor);
+    font-size: 2em;
+    border-radius: 50%;
+    margin: 2vw 0;
+}
+        .left_favicons{
+            margin-top: 8vw;
+           width: 100%;
+           
+           letter-spacing: 0.01vw;
+           
+        }
+        .left_favicons ul li span{
+    
+            margin-left: 3vw;
+            font-size: 1em;
+            color: var(--text-secondary-color);
+           
+        }
+
+        .right_side_contact{
+            margin: 5vw 0;
+        }
+        .right_side_contact form :is(input, textarea){
+            width: 100%;
+            padding: 5vw 7vw;
+            margin-bottom: 5vw;
+           
+          
+            
+        }
+        .right_side_contact button{
+            width: 100%;
+            padding: 3vw;
+        }
+}
+
+@media screen and (max-width :770px) {
+    .left_favicons ul li span{
+        line-height: 5vw;
+  
+       
+    }
+    
+}
+@media screen and (max-width :280px) {
+    .left_favicons ul li span{
+        line-height: 10vw;
+  
+       
+    }
+    
+}
