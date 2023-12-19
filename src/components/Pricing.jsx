@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/pricing.css'
 import { pricing } from './images'
 import Banner from './Banner'
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -23,7 +24,7 @@ const Pricing = () => {
             <li><i className={data.price_sign} ></i><h4 id='rupee'>{data.price}</h4></li>
             <li><p>{data.desc}</p></li>
         </ul>
-        <button className='grid'>JOIN NOW</button>
+        <Link to='/contact'><button className='grid'>JOIN NOW</button></Link>
         
         </div>
             ))

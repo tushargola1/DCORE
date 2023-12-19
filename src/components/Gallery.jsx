@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/gallery.css";
-import img1 from "../assets/img/dheeraj/4.jpg";
-import img11 from '../assets/img/gallery/4.jpg'
+
 import Banner from '../components/Banner.jsx'
 // import video from '../assets/about-video.mp4'
 
